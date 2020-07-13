@@ -14,19 +14,29 @@ public class PolicyHandler{
     public void onStringEventListener(@Payload String eventString){
 
     }
+    @Autowired
+    ProductRepository productRepository;
 
     @StreamListener(KafkaProcessor.INPUT)
     public void wheneverOrderCanceled_ProductChange(@Payload OrderCanceled orderCanceled){
 
         if(orderCanceled.isMe()){
-            System.out.println("##### listener ProductChange : " + orderCanceled.toJson());
+            Product product = new Product();
+            product.setId(orderCanceled.getId());
+            product.setAmount(Integer.parseInt(""+product.getAmount())+1);
+            productRepository.save(product);
+            System.out.println("##### listener wheneverOrderCanceled_ProductChange : " + orderCanceled.toJson());
         }
     }
     @StreamListener(KafkaProcessor.INPUT)
     public void wheneverOrdered_ProductChange(@Payload Ordered ordered){
 
         if(ordered.isMe()){
-            System.out.println("##### listener ProductChange : " + ordered.toJson());
+            Product product = new Product();
+            product.setId(ordered.getId());
+            product.setAmount(Integer.parseInt(""+product.getAmount())-1);
+            productRepository.save(product);
+            System.out.println("##### listener wheneverOrdered_ProductChange : " + ordered.toJson());
         }
     }
 

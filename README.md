@@ -6,7 +6,7 @@
 이는 클라우드 네이티브 애플리케이션의 개발에 요구되는 체크포인트들을 통과하기 위한 예시 답안을 포함합니다.
 - 체크포인트 : https://workflowy.com/s/assessment-check-po/T5YrzcMewfo4J6LW
 
-# 구현 Repository
+# 구현 Repository  ***
 
 총 7개
 1. https://github.com/SK-teamC/order
@@ -130,8 +130,8 @@
   ![image](https://user-images.githubusercontent.com/487999/79684159-3543c700-826a-11ea-8d5f-a3fc0c4cad87.png)
 
 
-## Event Storming 결과
-* MSAEz 로 모델링한 이벤트스토밍 결과:  http://msaez.io/#/storming/nZJ2QhwVc4NlVJPbtTkZ8x9jclF2/every/a77281d704710b0c2e6a823b6e6d973a/-M5AV2z--su_i4BfQfeF
+## Event Storming 결과  ***
+* MSAEz 로 모델링한 이벤트스토밍 결과:  http://msaez.io/#/storming/yMtAcGqlvFOF8bDmBRcWQNX1Li43/every/081061689478e7b4511cf7fb98c59f3d/-MCBUp0HGJ8THO3TFeHH
 
 
 ### 이벤트 도출
@@ -208,7 +208,7 @@
 
 
 
-## 헥사고날 아키텍처 다이어그램 도출
+## 헥사고날 아키텍처 다이어그램 도출  ***
     
 ![image](https://user-images.githubusercontent.com/65527020/87419081-d3e38800-c60d-11ea-94d9-7a04b3e2a87e.png)
 

@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/65527020/87420483-540aed00-c610-11ea-8fd8-2defae05bdfe.png)
+![image](https://user-images.githubusercontent.com/65527020/87420811-e27f6e80-c610-11ea-961b-4895e2532b9b.png)
 
 # 정수기 렌탈 서비스
 

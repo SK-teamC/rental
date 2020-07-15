@@ -161,12 +161,14 @@
 
 ### 1차 완성본에 대한 기능적/비기능적 요구사항을 커버하는지 검증
 
-![image](https://user-images.githubusercontent.com/487999/79684167-3ecd2f00-826a-11ea-806a-957362d197e3.png)
+![image](https://user-images.githubusercontent.com/65527020/87490914-d253a780-c681-11ea-9ffb-cd4d16a55e6f.png)
 
-    - 고객이 메뉴를 선택하여 주문한다 (ok)
+    - 고객이 정수기를 선택하여 주문한다 (ok)
     - 고객이 결제한다 (ok)
-    - 주문이 되면 주문 내역이 입점상점주인에게 전달된다 (ok)
-    - 상점주인이 확인하여 요리해서 배달 출발한다 (ok)
+    - 주문이 완료 되면 주문 내역이 배송팀에게 전달된다 (ok)
+    - 배송팀이 확인하여 정수기를 배달한다 (ok)
+    - 주문이 확정되면 점검일정이 1개월 뒤로 자동 설정 된다 (ok)
+    - 주문이 확정되면 상품수량이 감소한다 (ok)
 
 ![image](https://user-images.githubusercontent.com/487999/79684170-47256a00-826a-11ea-9777-e16fafff519a.png)
     - 고객이 주문을 취소할 수 있다 (ok)
